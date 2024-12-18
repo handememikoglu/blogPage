@@ -3,110 +3,102 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    width: 1440px;
+    font-family: system-ui;
+}
 .container {
-    width: 1440px;
+    margin-inline: auto;
+    width: 1110px;
+    margin-block: 80px;
 }
-.design {
-    margin-top: 80px;
-    margin-left: 165px;
+.header {
+    border-bottom: 1px solid #EAEAEA;
+}
+.header h1 {
     width: 824px;
-}
-.container h1 {
-    font-weight: 700px;
     font-size: 40px;
-    line-height: 48px;
-    text-align: left;
-}
-.container a {
-    width: 68px;
-    height: 26px;
-    margin-top: 1px;
-}
-.container img {
-    margin-top: 28px;
-}
-.design2 img{
-    margin-top: 39px;
-    margin-left: 165px;
-    width: 1110px;
-
-}
-.container p {
-    width: 1112px;
-    margin-top: 24px;
-    margin-left: 166px;
-    font-family: Open Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 28px;
-    text-align: left;
-    text-underline-position: from-font;
-}
-.design3 {
-    width: 1440px;
-
-}
-.design3 img {
-    margin-top: 80px;
-    margin-left: 166px;
-}
-.design4 {
-    width: 1110px;
-    margin-left: 165px;
-    background-color: #ECF1F8;
-}
-.design4 img{
-    width: 860px;
-    margin-top: 96px;
-    margin-left: 126px;
-}
-.design5 {
-    width: 1440px;
-}
-.design5 h1 {
-    margin-top: 80.5px;
-    margin-left: 166px;
-    width: 546px;
-    font-size: 20px;
     font-weight: 700;
-    line-height: 30px;
-    text-align: left;
-    text-underline-position: from-font;
+    line-height: 48px;
+    margin-bottom: 28px;
 }
-.design5 p {
-    width: 546px;
-    margin-top: 16px;
-    font-family: Open Sans;
+.header img {
+    vertical-align: middle;
+    margin-right: 12px;
+    padding-bottom: 16px;
+}
+.header span  {
+    color:#52647C ;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.content p {
+    margin-block: 24px;
+    color: #212121;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-    text-align: left;
-    text-underline-position: from-font;
-    vertical-align: auto;
-
 }
-.design5 img {
-    width: 540px;
-    margin: auto;
-    float: right;
-    border-radius: 6px;
-}
-.design6 {
-    width: 1440px;
-}
-.design6 h1 {
-    width: 194px;
-    margin-top: 48px;
-    margin-left: 172px;
+.content h2 {
+    margin-bottom: 32px;
     font-size: 30px;
     font-weight: 700;
     line-height: 37px;
     letter-spacing: -0.3499999940395355px;
     text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
 }
-.design6 img {
-    width: 1110px;
-    margin-top: 32px;
-    margin-left: 172px;
-    border-radius: 12px;
+.applePc img {
+    float: left;
+    margin-right: 24px;
+}
+.applePc p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.applePc-text h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.applePc-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.ronald-text {
+    margin-block: 80px;
+    background-color: #ECF1F8;
+    padding: 96px 125px;
+}
+.ronald-text h2 {
+    color: #212121;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: -0.3499999940395355px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.ronald-text p {
+    color: #212121;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.applewatch {
+    margin-bottom: 128px;
+}
+.applewatch img {
+    float: right;
+    margin-left: 24px;
 }
